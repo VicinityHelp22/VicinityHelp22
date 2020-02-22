@@ -17,11 +17,20 @@
       integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
       crossorigin="anonymous"
     />
+    <link
+      href="http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css" />
 
     <link rel="stylesheet" type="text/css" href="resources/css/login.css" />
   </head>
 
   <body>
+      <!-- Header -->
+      <%@include file="header.jsp" %>
+      <!-- Header-->
     <div class="limiter">
       <div
         style="background-color: #30336b;
@@ -32,7 +41,7 @@ background-image: linear-gradient(19deg, #30336b 0%, #30336b 16%);
         <div class="wrap-login">
           <div class="text-center">
             <div class="container">
-            <a class="login-brand" href="#"><div>Vicinity</div></a>
+           
           </div>
           <form action="#" class="login-form">
             <span class="login-form-title mb-4">Sign In with</span>
@@ -47,9 +56,9 @@ background-image: linear-gradient(19deg, #30336b 0%, #30336b 16%);
             <div class="wrap-input">
               <input type="text" name="username" class="inputcustom" />
             </div>
-            <div class="my-2 ml-2 forgot">
+            <div class="my-2 ml-2">
               <span>Password</span>
-              <a href="#" class="ml3">Forgot?</a>
+              <a href="#" class="forgot ml3">Forgot?</a>
             </div>
             <div class="wrap-input">
               <input type="password" name="password" class="inputcustom" />
@@ -57,11 +66,13 @@ background-image: linear-gradient(19deg, #30336b 0%, #30336b 16%);
             <button class="btn btn-block login-form-btn">Sign In</button>
             <div class="text-center w-full">
               <span class="text2">Not a member yet?</span>
-              <a href="#" class="text2 signup">SIGN UP</a>
+              <a href="Sign_up.jsp" class="text2 signup">SIGN UP</a>
             </div>
           </form>
         </div>
       </div>
     </div>
+        <!-- Footer -->
+ <%@include file="footer.jsp" %>
   </body>
 </html>

@@ -1,3 +1,4 @@
+
 /* ----------------------------------------------- */
 /* Login */
 /* ----------------------------------------------- */
@@ -189,16 +190,14 @@ input {
   text-decoration: none;
   color: #30336b;
 }
-
-.forgot :focus {
+.forgot a:focus {
   outline: none;
 }
 
-.forgot :hover {
+.forgot a:hover {
   text-decoration: none;
-  color: #30336b;
+  background-color: black;
 }
-
 /* media queries */
 
 @media (max-width: 768px) {
@@ -215,15 +214,5 @@ input {
     }
   }
 }
-.login-brand div {
-  color: #30336b;
-  font-size: 200%;
-  height: 54px;
-  width: 100%;
-  font-weight: bold;
-  border-radius: 50%;
-  display: inline-block;
-  text-align: center;
-  margin-right: 25px;
-  padding: 5px;
-}
+
+
