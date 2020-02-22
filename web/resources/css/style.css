@@ -135,18 +135,6 @@ section {
   border-bottom: 2px solid #fff;
 }
 
-a:link,
-a:visited {
-  color: #fff;
-  text-decoration: none;
-  padding-bottom: 1px;
-}
-
-a:hover,
-a:active {
-  color: #c9cbf7;
-}
-
 /* ----------------------------------------------- */
 /* Booking Container */
 /* ----------------------------------------------- */

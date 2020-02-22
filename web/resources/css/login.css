@@ -1,3 +1,4 @@
+
 /* ----------------------------------------------- */
 /* Login */
 /* ----------------------------------------------- */
@@ -189,16 +190,14 @@ input {
   text-decoration: none;
   color: #30336b;
 }
-
 .forgot a:focus {
   outline: none;
 }
 
 .forgot a:hover {
   text-decoration: none;
-  color: #30336b;
+  background-color: black;
 }
-
 /* media queries */
 
 @media (max-width: 768px) {
@@ -215,35 +214,5 @@ input {
     }
   }
 }
-.login-brand div {
-  color: #30336b;
-  font-size: 200%;
-  height: 54px;
-  width: 100%;
-  font-weight: bold;
-  border-radius: 50%;
-  display: inline-block;
-  text-align: center;
-  margin-right: 25px;
-  padding: 5px;
-}
-/* ----------------------------------------------- */
-/* Navbar COMPONENTS */
-/* ----------------------------------------------- */
 
-.divleft {
-  padding-left: 59%;
-}
-.navbar-brand div {
-  color: #fff;
-  font-size: 150%;
-  height: 54px;
-  width: 54px;
-  font-weight: bold;
-  border-radius: 50%;
-  display: inline-block;
-  text-align: center;
-  margin-right: 25px;
-  float: left;
-  padding: -15px;
-}
+

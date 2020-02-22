@@ -17,12 +17,12 @@
       integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="resources/css/style.css" />
     <link
       href="http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic"
       rel="stylesheet"
       type="text/css"
     />
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css" />
 
     <link rel="stylesheet" type="text/css" href="resources/css/login.css" />
   </head>
@@ -56,9 +56,9 @@ background-image: linear-gradient(19deg, #30336b 0%, #30336b 16%);
             <div class="wrap-input">
               <input type="text" name="username" class="inputcustom" />
             </div>
-            <div class="my-2 ml-2 forgot">
+            <div class="my-2 ml-2">
               <span>Password</span>
-              <a href="#" class=" ml3">Forgot?</a>
+              <a href="#" class="forgot ml3">Forgot?</a>
             </div>
             <div class="wrap-input">
               <input type="password" name="password" class="inputcustom" />
