@@ -6,7 +6,7 @@
             </button>
             <div class="collapse navbar-collapse divleft" id="navbarNav">
                 <ul class="navbar-nav">
-                <li class="nav-item active">
+                <li class="nav-item ">
                     <a class="nav-link" href="contact_us.jsp">Contact-Us <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
@@ -16,7 +16,7 @@
                     <a class="nav-link" href="logIn.jsp">Login</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">SignUp</a>
+                    <a class="nav-link" href="Sign_up.jsp">SignUp</a>
                 </li>
                 </ul>
             </div>
