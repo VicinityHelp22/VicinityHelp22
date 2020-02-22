@@ -1,97 +1,88 @@
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sign Up</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic"
+      rel="stylesheet"
+      type="text/css"
+    />
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/login.css" />
+  </head>
 
+  <body>
+      <!-- Header -->
+      <%@include file="header.jsp" %>
+      <!-- Header-->
+    <div class="limiter">
+      <div
+        style="background-color: #30336b;
+background-image: linear-gradient(19deg, #30336b 0%, #30336b 16%);
+;"
+        class="container-login"
+      >
+        <div class="wrap-login">
+          <div class="text-center">
+            <div class="container">
+            <a class="login-brand" href="#"><div>Sign Up</div></a>
+          </div>
+          <form action="#" class="login-form">
 
-<div class="container">
-<br>  <p class="text-center">More bootstrap 4 components on <a href="http://bootstrap-ecommerce.com/"> Bootstrap-ecommerce.com</a></p>
-<hr>
-
-
-
-
-
-<div class="card bg-light">
-<article class="card-body mx-auto" style="max-width: 400px;">
-	<h4 class="card-title mt-3 text-center">Create Account</h4>
-	<p class="text-center">Get started with your free account</p>
-	<p>
-		<a href="" class="btn btn-block btn-twitter"> <i class="fab fa-twitter"></i>   Login via Twitter</a>
-		<a href="" class="btn btn-block btn-facebook"> <i class="fab fa-facebook-f"></i>   Login via facebook</a>
-	</p>
-	<p class="divider-text">
-        <span class="bg-light">OR</span>
-    </p>
-	<form>
-	<div class="form-group input-group">
-		<div class="input-group-prepend">
-		    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
-		 </div>
-        <input name="" class="form-control" placeholder="Full name" type="text">
-    </div> <!-- form-group// -->
-    <div class="form-group input-group">
-    	<div class="input-group-prepend">
-		    <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
-		 </div>
-        <input name="" class="form-control" placeholder="Email address" type="email">
-    </div> <!-- form-group// -->
-    <div class="form-group input-group">
-    	<div class="input-group-prepend">
-		    <span class="input-group-text"> <i class="fa fa-phone"></i> </span>
-		</div>
-		<select class="custom-select" style="max-width: 120px;">
-		    <option selected="">+971</option>
-		    <option value="1">+972</option>
-		    <option value="2">+198</option>
-		    <option value="3">+701</option>
-		</select>
-    	<input name="" class="form-control" placeholder="Phone number" type="text">
-    </div> <!-- form-group// -->
-    <div class="form-group input-group">
-    	<div class="input-group-prepend">
-		    <span class="input-group-text"> <i class="fa fa-building"></i> </span>
-		</div>
-		<select class="form-control">
-			<option selected=""> Select job type</option>
-			<option>Designer</option>
-			<option>Manager</option>
-			<option>Accaunting</option>
-		</select>
-	</div> <!-- form-group end.// -->
-    <div class="form-group input-group">
-    	<div class="input-group-prepend">
-		    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
-		</div>
-        <input class="form-control" placeholder="Create password" type="password">
-    </div> <!-- form-group// -->
-    <div class="form-group input-group">
-    	<div class="input-group-prepend">
-		    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
-		</div>
-        <input class="form-control" placeholder="Repeat password" type="password">
-    </div> <!-- form-group// -->                                      
-    <div class="form-group">
-        <button type="submit" class="btn btn-primary btn-block"> Create Account  </button>
-    </div> <!-- form-group// -->      
-    <p class="text-center">Have an account? <a href="">Log In</a> </p>                                                                 
-</form>
-</article>
-</div> <!-- card.// -->
-
-</div> 
-<!--container end.//-->
-
-<br><br>
-<article class="bg-secondary mb-3">  
-<div class="card-body text-center">
-    <h3 class="text-white mt-3">Bootstrap 4 UI KIT</h3>
-<p class="h5 text-white">Components and templates  <br> for Ecommerce, marketplace, booking websites 
-and product landing pages</p>   <br>
-<p><a class="btn btn-warning" target="_blank" href="http://bootstrap-ecommerce.com/"> Bootstrap-ecommerce.com  
- <i class="fa fa-window-restore "></i></a></p>
-</div>
-<br><br>
-</article>
+            <div class="my-2 ml-2"><span>Name</span></div>
+            <div class="wrap-input">
+              <input type="text" name="username" class="inputcustom" />
+            </div>
+             <div class="my-2 ml-2">
+              <span>Contact-No.</span>  
+            </div>
+            <div class="wrap-input">
+              <input type="number" name="contact" class="inputcustom" />
+            </div>
+             <div class="my-2 ml-2">
+              <span>Email-Id</span>  
+            </div>
+            <div class="wrap-input">
+              <input type="email" name="email" class="inputcustom" />
+            </div>
+            <div class="my-2 ml-2">
+              <span>Password</span>  
+            </div>
+            <div class="wrap-input">
+              <input type="password" name="password" class="inputcustom" />
+            </div>
+             <div class="my-2 ml-2">
+              <span>Confirm Password</span>  
+            </div>
+            <div class="wrap-input">
+              <input type="password" name="confirm-password" class="inputcustom" />
+            </div>
+            <button class="btn btn-block login-form-btn">Sign Up</button>
+            <div class="text-center w-full">
+              <span class="text2">Already a member?</span>
+              <a href="logIn.jsp" class="text2 signup">SIGN In</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+        <!-- Footer -->
+ <%@include file="footer.jsp" %>
+  </body>
+</html>
