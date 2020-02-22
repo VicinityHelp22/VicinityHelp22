@@ -66,7 +66,7 @@ background-image: linear-gradient(19deg, #30336b 0%, #30336b 16%);
             <button class="btn btn-block login-form-btn">Sign In</button>
             <div class="text-center w-full">
               <span class="text2">Not a member yet?</span>
-              <a href="#" class="text2 signup">SIGN UP</a>
+              <a href="Sign_up.jsp" class="text2 signup">SIGN UP</a>
             </div>
           </form>
         </div>
