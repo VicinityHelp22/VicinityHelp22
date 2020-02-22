@@ -22,6 +22,9 @@
   </head>
 
   <body>
+      <!-- Header -->
+      <%@include file="header.jsp" %>
+      <!-- Header-->
     <div class="limiter">
       <div
         style="background-color: #30336b;
@@ -63,5 +66,7 @@ background-image: linear-gradient(19deg, #30336b 0%, #30336b 16%);
         </div>
       </div>
     </div>
+        <!-- Footer -->
+ <%@include file="footer.jsp" %>
   </body>
 </html>
