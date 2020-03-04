@@ -4,7 +4,6 @@
        <style>
 .container {
   position: relative;
-  font-family: Arial;
   
 }
 
