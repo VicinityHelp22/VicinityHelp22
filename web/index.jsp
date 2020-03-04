@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+       <style>
+.container {
+  position: relative;
+  font-family: Arial;
+  
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  left:10%;
+  height:30%;
+  width: 80%;
+  border: 3px;
+  border-radius: 2%;
+  background-color:white;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+</style>
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" >
     <script src="https://kit.fontawesome.com/e136c16ae6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     
     <link
       rel="stylesheet"
@@ -61,7 +85,63 @@
           </div>
         
         </section>
+        
+        <section class="section-features">
+         <div class="container">
+  <h2>Most Viewed</h2>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
 
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active" style="height:600px">
+        <img src="resources/img/garden1.jpg" alt="Los Angeles" style="width:100%">
+        <div class="card-body text-block" >
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+       </div>
+      </div>
+
+      <div class="item" style="height: 600px">
+          <img src="resources/img/garden5.jpg" alt="Chicago" style="width:100%">
+        <div class="card-body text-block" >
+    <h5 class="card-title">Special title treatment</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+      </div>
+    
+      <div class="item" style="height: 600px">
+          <img src="resources/img/garden3.jpg" alt="New York" style="width:100%">
+        <div class="card-body text-block">
+    <h5 class="card-title">Special title treatment</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+    </section>
     <section class="section-features">
       
         <div class="row">
