@@ -310,3 +310,21 @@ list-type-ulli {
     padding: 35px 30px 51px 30px;
   }
 }
+
+
+/* ----------------------------------------------- */
+/* Slider */
+/* ----------------------------------------------- */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  left:10%;
+  height:30%;
+  width: 80%;
+  border: 3px;
+  border-radius: 2%;
+  background-color:white;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
