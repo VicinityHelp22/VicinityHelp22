@@ -21,7 +21,7 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="Sign_up.jsp">User</a>
-                        <a class="dropdown-item" href="#">Garden Owner</a>
+                        <a class="dropdown-item" href="GSignUp.jsp">Garden Owner</a>
                     </div>
                 </li>
             </ul>
