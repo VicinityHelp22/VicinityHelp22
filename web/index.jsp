@@ -39,7 +39,7 @@
         </div>
         <section class="section-booking">
             <div class="container-booking">
-                <form id="booking-form" class="booking-form" method="POST">
+                <form id="booking-form" class="booking-form" method="POST" action="bookNow.jsp">
                     <div class="form-group">
                         <div class="form-destination">
                             <label for="destination">Destination</label>
