@@ -4,7 +4,6 @@
     <title>Login V5</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    </style>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -71,6 +70,7 @@ background-image: linear-gradient(19deg, #30336b 0%, #30336b 16%);
           </form>
         </div>
       </div>
+    </div>
     </div>
         <!-- Footer -->
  <%@include file="footer.jsp" %>
