@@ -60,7 +60,7 @@
         <section class="container">
             <div class="d-flex">
                 <div class="dropdown mr-1" style="padding-left: 20px">
-                    <button type="button" class="btn btn-success dropdown-toggle" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button type="button" class="btn btn-success dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Sort By Price
                     </button>
                     <div class="dropdown-menu"aria-labelledby="dropdownMenuButton">
@@ -89,21 +89,69 @@
                         <div class="dropdown-divider"></div>
                     </div>
                 </div>
-                
+
                 <div class="btn-group" style="padding-left: 5px">
                     <button type="button" class="btn btn-success dropdown-toggle" id="dropdownRating" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Rating
                     </button>
                     <div class="dropdown-menu" style="background-color: #30336B;" aria-labelledby="dropdownRating">
-                         
+
                         <a class="dropdown-item alert-success" href="#">5 Excellent</a>
                         <a class="dropdown-item alert-primary" href="#">4 Very-Good</a>
                         <a class="dropdown-item alert-secondary" href="#">3 Good</a>
                         <a class="dropdown-item alert-warning" href="#">2 Fair</a>
-                        <a class="dropdown-item alert-danger" href="#">1 Okey</a>
+                        <a class="dropdown-item alert-danger" href="#">1 Okay</a>
+                    </div>
+
+                    <div class="btn-group" style="padding-left: 5px">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModalCenter">
+                            More Filtering
+                        </button>
+                        <div class="modal fade" id="exampleModalCenter" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenter" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title lead alert-secondary" >Popular Filters:</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form class="px-4 py-3">
+                                            <div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                                    <label class="custom-control-label" for="customCheck1">24-Hour Reception</label>
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                                    <label class="custom-control-label" for="customCheck2">Business Meeting</label>
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck3">
+                                                    <label class="custom-control-label" for="customCheck3">Wi-fi</label>
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck4">
+                                                    <label class="custom-control-label" for="customCheck4">Pay-at hotel</label>
+                                                    
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck5">
+                                                    <label class="custom-control-label" for="customCheck5">Birthday</label>
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck6">
+                                                    <label class="custom-control-label" for="customCheck6">AC</label>
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck7">
+                                                    <label class="custom-control-label" for="customCheck7">Merriage</label>
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck8">
+                                                    <label class="custom-control-label" for="customCheck8">Other</label>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-divider"></div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary float-left" data-dismiss="modal">Close</button>
+                                                <button type="submit" class="btn btn-success">Search</button>
+                                            </div> 
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
         </section>
 
 
