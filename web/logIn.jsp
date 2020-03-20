@@ -39,9 +39,9 @@ background-image: linear-gradient(19deg, #30336b 0%, #30336b 16%);
       >
         <div class="wrap-login">
           <div class="text-center">
-            <div class="container">
+<!--            <div class="container">
            
-          </div>
+          </div>-->
           <form action="#" class="login-form">
             <span class="login-form-title mb-4">Sign In with</span>
             <a href="#" class="btn-face"
