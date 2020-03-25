@@ -1,4 +1,4 @@
-<!--<!DOCTYPE html>kjffjvjf-->
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -39,7 +39,7 @@
         </div>
         <section class="section-booking">
             <div class="container-booking">
-                <form id="booking-form" class="booking-form" method="POST" action="bookNow.jsp">
+                <form id="booking-form" class="booking-form" method="POST" action="View_Garden_Details.jsp">
                     <div class="form-group">
                         <div class="form-destination">
                             <label for="destination">Destination</label>
