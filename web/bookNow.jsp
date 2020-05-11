@@ -1,7 +1,7 @@
 <%-- 
     Document   : bookNow
     Created on : Mar 8, 2020, 5:53:00 PM
-    Author     : Praveen Sharma
+    Author     : Trapti Sharma
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
